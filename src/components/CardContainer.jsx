@@ -27,7 +27,6 @@ function CardContainer({ onGameOver, onIncreaseScore }) {
           console.error(error.message);
         }
       }
-      console.log(pokemonList);
       setCards(pokemonList);
     };
     if (!ignore) generateCards();
