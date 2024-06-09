@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffcdea;
+  color: #222;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #ff66bf;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-img {
+  width: 96px;
+}
